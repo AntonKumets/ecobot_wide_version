@@ -2,7 +2,7 @@ import telebot
 from logic_ai import get_class
 from confic import TOKEN
 
-bot = telebot.TeleBot('7996112315:AAGMb5aZnSJKjReWSVR2EwMES3rAjchqVRI')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
